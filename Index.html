@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+body{
+	background-image: url("concrete-road.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#myCanvas 
+{
+	border-style:ridge; 
+}
+
+
+
+button
+{
+	background-color: white;
+	color: black;
+	text-align: center;
+	font-style: italic;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Valet parking</title>
+</head>
+<body onload="add()">
+<center>
+<marquee><h1 style="color: red; font-style: italic; font-family: 'Times New Roman', Times, serif;">Valet parking</h1></marquee>
+<canvas id="myCanvas"width="800" height="600"></canvas>
+
+<button id="restart_buttton" onclick=restart()>Restart</button>
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
